@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:css": "tailwindcss -i src/index.css -o dist/output.css",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
