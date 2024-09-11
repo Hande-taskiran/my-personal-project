@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <section className="bg-purple-700 text-white p-10">
+    <section className="bg-purple-700 dark:bg-black dark:text-white text-white p-10">
       <h2 className="text-3xl font-bold mb-6 text-center">Profile</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="p-4 bg-purple-500 rounded-lg">

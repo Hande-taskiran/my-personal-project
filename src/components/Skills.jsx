@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <section className="p-10">
+    <section className="p-10 dark:bg-black dark:text-white">
       <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center">
         <div className="text-center">

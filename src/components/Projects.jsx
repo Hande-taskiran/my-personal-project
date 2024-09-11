@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section className="p-10 bg-green-100">
+    <section className="p-10 bg-green-100 dark:bg-black dark:text-white">
       <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="p-6 bg-white rounded-lg shadow-md">
